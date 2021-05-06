@@ -47,10 +47,6 @@ main{
 
 }
 
-body {
-    overflow: hidden;
-}
-
 .nav-container {
     margin: 20px;
 }
