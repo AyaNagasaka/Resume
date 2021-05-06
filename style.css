@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-padding-top: 340px;
+    /* this code prevents mag overlap ang stiky header
+    whenever mag click navigations mo ni research ko lang 
+    din to hahahahah */
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white; 
+    float:right;
+    margin-right: 5%;
+}
+
+/* Code for Sticky header */
+header{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* End for sticky header */
+
+.main-header {
+    background-color: #fc8a96;
+    width: auto;
+    height: 30%;
+    padding: 20px 20px 20px 40px;
+    margin: 20px;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+main{
+    position:absolute;
+    margin-top: 300px;
+
+}
+
+.nav-container {
+    margin: 20px;
+}
+
+.nav-container #obj {
+    margin-top: 500px;
+}
+
+h1  {
+    font-family: "Comfortaa";
+    font-size: 2.4em;
+    padding: 10px 0 20px 0;
+}
+
+section h2 {
+    font-family: "Comfortaa";
+    font-size: 1.4em;
+}
+
+
+p {
+    font-family: "Calibri";
+    font-size: 1.3em;
+    line-height: 30px;
+}  
+
+li {
+    display: inline;
+    font-family: "Comfortaa";
+    font-size: 1.2em;
+    padding-right: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+li a:hover {
+    background-color:#fc8a96;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    color: white;
+}
+
+section {
+    margin: 40px 20px 40px 20px;
+}
+
+article {
+    width: 70%;
+    height: auto;
+    background-color: #ffb3b1;
+    margin: 0 auto;
+    border-radius: 1em;
+    padding: 50px;
+    line-height: 50px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+article p {
+    text-align: center;
+}
+
+.school {
+    float:left;
+    padding: 10px;
+    
+}
+
+.school li {
+    font-size: 1.1em;
+    font-family: "calibri";
+    display: block;
+    text-align: center;
+    line-height: 30px;
+}
